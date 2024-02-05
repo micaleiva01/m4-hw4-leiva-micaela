@@ -1,0 +1,68 @@
+body {
+    background-color: orange;
+    margin: 100px;
+}
+
+h1 {
+    background-color: blue;
+    color: white;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.large-text {
+    font-size: 35px;
+}
+
+.red-text {
+    color: red;
+}
+
+.pink-text {
+    color: rgb(209, 11, 156);
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+}
+
+.green-background {
+    display: inline-block;
+    background-color: green;
+    color: white;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+img.center-align {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.right-align {
+    display: block;
+    margin-left: auto;
+}
+
+img.left-align {
+    display: block;
+    margin-right: auto;
+}
+
+h2 ~ h3 {
+    font-style: italic;
+}
